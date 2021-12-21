@@ -15,7 +15,8 @@
       "import": "./dist/esm/*.js",
       "require": "./dist/cjs/*.js",
       "default": "./dist/esm/*.js"
-    }
+    },
+    "./enable-check*": "./enable-check.js"
   },
   "scripts": {
     "clean": "rimraf lib dist test/tsc/**/.temp",
